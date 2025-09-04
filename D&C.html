@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="D&C.css">
+
 </head>
 
 <body>
+
   <nav>
     <ul>
       <li class="logo">
@@ -37,19 +40,35 @@
     </div>
   </div>
 
-  <img id="background" src="img/Screenshot 2025-09-04 095000.png">
-
-
-  <div class="hero">
-    <div class="hero-content">
-      <img src="img/Screenshot 2025-09-04 094506.png" alt="F1 Logo" class="big-logo">
-      <h1>FORMULA ONE</h1>
 
 
 
 
+  <h3>Circuits & Drivers</h3>
 
+  <div class="container">
+    <div class="box" id="circuits-box">
+      <button id="prev-circuit">&lt;</button>
 
+      <div id="circuit-content">
+        <!-- Circuit-data -->
+      </div>
+
+      <button id="next-circuit">&gt;</button>
+    </div>
+
+    <div class="box" id="drivers-box">
+      <button id="prev-driver">&lt;</button>
+
+      <div id="driver-content">
+        <!-- Driver-data -->
+      </div>
+
+      <button id="next-driver">&gt;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

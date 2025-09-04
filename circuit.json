@@ -1,122 +1,170 @@
 [
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Melbourne",
+        "country": "Australia",
+        "length": "5.303 km",
+        "rounds": "58",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Shanghai",
+        "country": "China",
+        "length": "5.451km",
+        "rounds": "56",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Suzuka",
+        "country": "Japan",
+        "length": "5.807km",
+        "rounds": "53",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Sakhir",
+        "country": "Bahrain",
+        "length": "5.412km",
+        "rounds": "57",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Jeddah",
+        "country": "Saudi Arabia",
+        "length": "6.174km",
+        "rounds": "50",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Miami",
+        "country": "USA",
+        "length": "5.412km",
+        "rounds": "57",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Montreal",
+        "country": "Canada",
+        "length": "4.361 km",
+        "rounds": "70",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Monaco",
+        "country": "Monaco",
+        "length": "3.337km",
+        "rounds": "78",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Barcelona-Catalunya",
+        "country": "Spain",
+        "length": "4.657km",
+        "rounds": "66",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Spielberg",
+        "country": "Austria",
+        "length": "4.326km",
+        "rounds": "71",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Silverstone",
+        "country": "United Kingdom",
+        "length": "5.891 km",
+        "rounds": "52",
+        "image": ""
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Spa-Francorchamps",
+        "country": "Belgium",
+        "length": "7.004 km",
+        "rounds": "44",
+        "image": "img\Circuits\Belgium_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Budapest",
+        "country": "Hungary",
+        "length": "4.381 km",
+        "rounds": "70",
+        "image": "img\Circuits\Hungary_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Zandvoort",
+        "country": "Netherlands",
+        "length": "4.259 km",
+        "rounds": "72",
+        "image": "img\Circuits\Netherlands_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Monza",
+        "country": "Italy",
+        "length": "5.793 km",
+        "rounds": "53",
+        "image": "img\Circuits\Italy_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
+        "name": "Madrid",
+        "country": "Spain",
         "length": "",
-        "rounds": ""
+        "rounds": "",
+        "image": "img\Circuits\Spain_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Baku",
+        "country": "Azerbaijan",
+        "length": "6.003 km",
+        "rounds": "51",
+        "image": "img\Circuits\Baku_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Marina Bay Street",
+        "country": "Singapore",
+        "length": "5.063 km",
+        "rounds": "61",
+        "image": "img\Circuits\Singapore_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Austin",
+        "country": "USA",
+        "length": "5.513 km",
+        "rounds": "56",
+        "image": "img\Circuits\USA_Circuit.avif"
     },
     {
-        "name": "",
-        "country": "",
-        "length": "",
-        "rounds": ""
+        "name": "Mexico City",
+        "country": "Mexico",
+        "length": "4.304km",
+        "rounds": "71",
+        "image": "img\Circuits\Mexico_Circuit.avif"
+    },
+    {
+        "name": "Sao Paulo",
+        "country": "Brazil",
+        "length": "4.309km",
+        "rounds": "71",
+        "image": "img\Circuits\Brazil_Circuit.avif"
+    },
+    {
+        "name": "Las Vegas",
+        "country": "USA",
+        "length": "6.201km",
+        "rounds": "50",
+        "image": "img\Circuits\Las_Vegas_Circuit.avif"
+    },
+    {
+        "name": "Lusail",
+        "country": "Qatar",
+        "length": "5.419km",
+        "rounds": "57",
+        "image": "img\Circuits\Qatar_Circuit.avif"
+    },
+    {
+        "name": "Yas Marina",
+        "country": "Abu Dhabi",
+        "length": "5.554 km",
+        "rounds": "55",
+        "image": "img/Circuits/Abu_Dhabi_Circuit.avif"
     }
 ]
