@@ -27,10 +27,15 @@ const showDriver = i => {
   dc.parentElement.style.backgroundImage = `url('${d?.image || 'img/placeholder.jpg'}')`;
 };
 
-fetch('circuit.json').then(r=>r.json()).then(d=>{circuits=d;showCircuit(ci);});
-fetch('drivers.json').then(r=>r.json()).then(d=>{drivers=d;showDriver(di);});
+fetch('data/circuit.json').then(r=>r.json()).then(d=>{circuits=d;showCircuit(ci);});
+fetch('data/driver.json').then(r=>r.json()).then(d=>{drivers=d;showDriver(di);});
 
 document.getElementById('prev-circuit').onclick = ()=>{ ci = (ci>0)?ci-1:circuits.length-1; showCircuit(ci); };
 document.getElementById('next-circuit').onclick = ()=>{ ci = (ci<circuits.length-1)?ci+1:0; showCircuit(ci); };
 document.getElementById('prev-driver').onclick  = ()=>{ di = (di>0)?di-1:drivers.length-1; showDriver(di); };
 document.getElementById('next-driver').onclick  = ()=>{ di = (di<drivers.length-1)?di+1:0; showDriver(di); };
+
+fetch('data/circuit.json')
+  .then(r => r.json())
+  .then(d => { circuits = d; showCircuit(ci); })
+  .catch(err => console.error("Feil i circuit.json:", err));

@@ -32,28 +32,28 @@
         "country": "Saudi Arabia",
         "length": "6.174km",
         "rounds": "50",
-        "image": "img\Circuits\Saudi_Arabia_Circuit.avif"
+        "image": "img/Circuits/Saudi_Arabia_Circuit.avif"
     },
     {
         "name": "Miami",
         "country": "USA",
         "length": "5.412km",
         "rounds": "57",
-        "image": "img\Circuits\Miami_Circuit.avif"
+        "image": "img/Circuits/Miami_Circuit.avif"
     },
     {
         "name": "Montreal",
         "country": "Canada",
         "length": "4.361 km",
         "rounds": "70",
-        "image": "img\Circuits\Canada_Circuit.avif"
+        "image": "img/Circuits/Canada_Circuit.avif"
     },
     {
         "name": "Monaco",
         "country": "Monaco",
         "length": "3.337km",
         "rounds": "78",
-        "image": "img\Circuits\Monaco_Circuit.avif"
+        "image": "img/Circuits/Monaco_Circuit.avif"
     },
     {
         "name": "Barcelona-Catalunya",
