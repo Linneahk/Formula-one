@@ -32,133 +32,133 @@
         "country": "Saudi Arabia",
         "length": "6.174km",
         "rounds": "50",
-        "image": ""
+        "image": "img\Circuits\Saudi_Arabia_Circuit.avif"
     },
     {
         "name": "Miami",
         "country": "USA",
         "length": "5.412km",
         "rounds": "57",
-        "image": ""
+        "image": "img\Circuits\Miami_Circuit.avif"
     },
     {
         "name": "Montreal",
         "country": "Canada",
         "length": "4.361 km",
         "rounds": "70",
-        "image": ""
+        "image": "img\Circuits\Canada_Circuit.avif"
     },
     {
         "name": "Monaco",
         "country": "Monaco",
         "length": "3.337km",
         "rounds": "78",
-        "image": ""
+        "image": "img\Circuits\Monaco_Circuit.avif"
     },
     {
         "name": "Barcelona-Catalunya",
         "country": "Spain",
         "length": "4.657km",
         "rounds": "66",
-        "image": ""
+        "image": "img/Circuits/Spain_Circuit.avif"
     },
     {
         "name": "Spielberg",
         "country": "Austria",
         "length": "4.326km",
         "rounds": "71",
-        "image": ""
+        "image": "img/Circuits/Austria_Circuit.avif"
     },
     {
         "name": "Silverstone",
         "country": "United Kingdom",
         "length": "5.891 km",
         "rounds": "52",
-        "image": ""
+        "image": "img/Circuits/Great_Britain_Circuit.avif"
     },
     {
         "name": "Spa-Francorchamps",
         "country": "Belgium",
         "length": "7.004 km",
         "rounds": "44",
-        "image": "img\Circuits\Belgium_Circuit.avif"
+        "image": "img/Circuits/Belgium_Circuit.avif"
     },
     {
         "name": "Budapest",
         "country": "Hungary",
         "length": "4.381 km",
         "rounds": "70",
-        "image": "img\Circuits\Hungary_Circuit.avif"
+        "image": "img/Circuits/Hungary_Circuit.avif"
     },
     {
         "name": "Zandvoort",
         "country": "Netherlands",
         "length": "4.259 km",
         "rounds": "72",
-        "image": "img\Circuits\Netherlands_Circuit.avif"
+        "image": "img/Circuits/Netherlands_Circuit.avif"
     },
     {
         "name": "Monza",
         "country": "Italy",
         "length": "5.793 km",
         "rounds": "53",
-        "image": "img\Circuits\Italy_Circuit.avif"
+        "image": "img/Circuits/Italy_Circuit.avif"
     },
     {
         "name": "Madrid",
         "country": "Spain",
         "length": "",
         "rounds": "",
-        "image": "img\Circuits\Spain_Circuit.avif"
+        "image": "img/Circuits/Spain_Circuit.avif"
     },
     {
         "name": "Baku",
         "country": "Azerbaijan",
         "length": "6.003 km",
         "rounds": "51",
-        "image": "img\Circuits\Baku_Circuit.avif"
+        "image": "img/Circuits/Baku_Circuit.avif"
     },
     {
         "name": "Marina Bay Street",
         "country": "Singapore",
         "length": "5.063 km",
         "rounds": "61",
-        "image": "img\Circuits\Singapore_Circuit.avif"
+        "image": "img/Circuits/Singapore_Circuit.avif"
     },
     {
         "name": "Austin",
         "country": "USA",
         "length": "5.513 km",
         "rounds": "56",
-        "image": "img\Circuits\USA_Circuit.avif"
+        "image": "img/Circuits/USA_Circuit.avif"
     },
     {
         "name": "Mexico City",
         "country": "Mexico",
         "length": "4.304km",
         "rounds": "71",
-        "image": "img\Circuits\Mexico_Circuit.avif"
+        "image": "img/Circuits/Mexico_Circuit.avif"
     },
     {
         "name": "Sao Paulo",
         "country": "Brazil",
         "length": "4.309km",
         "rounds": "71",
-        "image": "img\Circuits\Brazil_Circuit.avif"
+        "image": "img/Circuits/Brazil_Circuit.avif"
     },
     {
         "name": "Las Vegas",
         "country": "USA",
         "length": "6.201km",
         "rounds": "50",
-        "image": "img\Circuits\Las_Vegas_Circuit.avif"
+        "image": "img/Circuits/Las_Vegas_Circuit.avif"
     },
     {
         "name": "Lusail",
         "country": "Qatar",
         "length": "5.419km",
         "rounds": "57",
-        "image": "img\Circuits\Qatar_Circuit.avif"
+        "image": "img/Circuits/Qatar_Circuit.avif"
     },
     {
         "name": "Yas Marina",
