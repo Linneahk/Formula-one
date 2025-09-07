@@ -100,19 +100,6 @@ margin: 80px 170px;
 
 }
 
-.heading {
-  display: flex;
-  justify-content: center;   /* midtstill dei horisontalt */
-  gap: 500px;                /* avstand mellom Circuits og Drivers */
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-
-.heading h3 {
-  font-size: 80px;
-  margin: 0;
-}
-
 
 /* Containeren sentrerer alt */
 .container {
@@ -125,15 +112,15 @@ margin: 80px 170px;
 /* Større boks */
 .box {
   position: relative;
-  width: 1000px;          /* større bredde */
-  height: 600px;         /* større høyde */
+  width: 900px;          /* større bredde */
+  height: 560px;         /* større høyde */
   border-radius: 20px;
   overflow: hidden;
   color: white;
   font-family: Arial, sans-serif;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 
-  background-size: cover;
+  background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -160,7 +147,7 @@ margin: 80px 170px;
 
 /* Tekststørrelser */
 .box h4 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 0 0 12px 0;
 }
 
@@ -169,10 +156,9 @@ margin: 80px 170px;
   margin: 3px 0;
 }
 
-/* Piler */
 .box button {
   position: absolute;
-  top: 50%;                   /* midt på boksen */
+  top: 50%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
   border: none;
@@ -182,6 +168,7 @@ margin: 80px 170px;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.2s;
+  z-index: 10; /* legg til dette */
 }
 
 .box button:hover {
