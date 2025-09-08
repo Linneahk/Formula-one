@@ -1,143 +1,154 @@
-body {
-  margin: 0;
-  background-color: #f5f5f5;
-}
+  body {
+    margin: 0;
+    background-color: #f5f5f5;
+  }
 
 
 
 
-nav {
-  margin: 0;
-  padding: 0;
-}
+  nav {
+    margin: 0;
+    padding: 0;
+  }
 
-ul {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0 20px;
-  list-style-type: none;
-  background-color: #9a3e54;
-  border: 2px solid black;
-}
-
-
-ul li.logo {
-  margin-right: auto;
-}
-
-ul li {
-  margin: 0;
-}
-
-ul li a {
-  font-size: 30px;
-  display: flex;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  padding: 15px 30px;
-}
-
-#logo {
-  width: 190px;
-  height: 80px;
-}
+  ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    list-style-type: none;
+    background-color: #9a3e54;
+    border: 2px solid black;
+  }
 
 
+  ul li.logo {
+    margin-right: auto;
+  }
+
+  ul li {
+    margin: 0;
+  }
+
+  ul li a {
+    font-size: 30px;
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+  }
+
+  #logo {
+    width: 190px;
+    height: 80px;
+  }
 
 
-#container {
-  outline: 2px solid black;
-  padding: 10px;
-}
+  .search-form {
+    text-align: right; /* helt til høyre */
+  }
+
+  .search-form input {
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
 
 
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown img {
-  margin-left: 30px;
-  width: 50px;
-  height: 46px;
-  cursor: pointer;
-  display: block;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: rgb(251, 235, 235);
-  border: 1px solid black;
-  min-width: 260px;
-  z-index: 20;
-}
-
-.dropdown-content a {
-  font-size: 30px;
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: black;
-}
-
-.dropdown-content a:hover {
-  background:   #cd9b9b;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-#f1{
-width: 950px;
-float: right;
-
-}
-
-.hero {
-  background-image: url("img/Screenshot-2025-09-04-095000.png");
-  background-size: cover;   /* dekker alltid heile */
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  #container {
+    outline: 2px solid black;
+    padding: 10px;
+  }
 
 
 
-#background {
-  width: 100%;
-}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-.hero-content {
-  position: absolute;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%); /* midtstiller innhaldet */
-  text-align: center;
-}
+  .dropdown img {
+    margin-left: 30px;
+    width: 50px;
+    height: 46px;
+    cursor: pointer;
+    display: block;
+  }
 
-.hero-content h1{
-  margin-top: 15px;
-  margin-left: 280px;
-  font-size: 60px;
-  color: #9a3e54;
-  letter-spacing: 35px;
-  
-}
 
-.big-logo {
-  margin-top: 120px;
-  max-width: 800px;
-  margin-left: 260px;
-}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(251, 235, 235);
+    border: 1px solid black;
+    min-width: 260px;
+    z-index: 20;
+  }
 
-.about{
-  text-align: center;
-}
+  .dropdown-content a {
+    font-size: 30px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown-content a:hover {
+    background:   #cd9b9b;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #f1{
+  width: 950px;
+  float: right;
+
+  }
+
+  .hero {
+    background-image: url("img/Screenshot-2025-09-04-095000.png");
+    background-size: cover;   /* dekker alltid heile */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+  #background {
+    width: 100%;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* midtstiller innhaldet */
+    text-align: center;
+  }
+
+  .hero-content h1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 300px;
+    font-size: 50px;
+    color: #9a3e54;
+    letter-spacing: 30px;
+    
+  }
+
+  .big-logo {
+    margin-top: 120px;
+    max-width: 800px;
+    margin-left: 260px;
+  }
+
+  .about{
+    text-align: center;
+  }
 
 
 

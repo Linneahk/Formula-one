@@ -112,14 +112,14 @@ margin: 80px 170px;
 /* Større boks */
 .box {
   position: relative;
-  width: 900px;          /* større bredde */
+  width: 800px;          /* større bredde */
   height: 560px;         /* større høyde */
   border-radius: 20px;
   overflow: hidden;
   color: white;
   font-family: Arial, sans-serif;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-
+  margin-top: 45px;
   background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
