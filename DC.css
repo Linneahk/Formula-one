@@ -46,10 +46,37 @@ ul li a {
 
 
 
+.search-form {
+  margin-right: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+}
+
+.search-form input {
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 15px;
+  width: 200px;
+  margin-right: 20px;
+
+}
+
+.search-form img {
+  order: 2;
+  height: 25px;
+}
+
 
 #container {
-  outline: 2px solid black;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  height: 80px;
 }
 
 
@@ -86,17 +113,17 @@ ul li a {
 }
 
 .dropdown-content a:hover {
-  background:   #cd9b9b;
+  background: #cd9b9b;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-#f1{
-width: 950px;
-float: right;
-margin: 80px 170px;
+#f1 {
+  width: 950px;
+  float: right;
+  margin: 80px 170px;
 
 }
 
@@ -109,17 +136,34 @@ margin: 80px 170px;
   gap: 100px;
 }
 
-/* Større boks */
+
+.container-dc{
+  margin-top: 100px;
+  gap: 200px;
+  justify-content: center;
+  display: flex;
+ }
+
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* dekker flata */
+  z-index: -1;       /* legg bildet bak innhaldet */
+}
+
 .box {
   position: relative;
-  width: 800px;          /* større bredde */
-  height: 560px;         /* større høyde */
+  width: 900px;
+  height: 700px;
   border-radius: 20px;
   overflow: hidden;
   color: white;
   font-family: Arial, sans-serif;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  margin-top: 45px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +173,7 @@ margin: 80px 170px;
 .box .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -160,7 +204,7 @@ margin: 80px 170px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
   font-size: 28px;
@@ -168,11 +212,12 @@ margin: 80px 170px;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.2s;
-  z-index: 10; /* legg til dette */
+  z-index: 10;
+  /* legg til dette */
 }
 
 .box button:hover {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* Plassering venstre og høyre */

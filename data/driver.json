@@ -4,140 +4,140 @@
         "country": "Australia",
         "Team": "McLaren",
         "number": "81",
-        "image": ""
+        "image": "img/Drivers/oscar piastri.png"
     },
      {
         "name": "Lando Norris",
         "country": "Great Britain",
         "Team": "McLaren",
         "number": "4",
-        "image": ""
+        "image": "img/Drivers/lando norris.png"
     },
      {
         "name": "Charles Leclerc",
         "country": "Monaco",
         "Team": "Ferrari",
         "number": "16",
-        "image": ""
+        "image": "img/Drivers/charles leclerc.png"
     },
      {
         "name": "Lewis Hamilton",
         "country": "Great Britain",
         "Team": "Ferrari",
         "number": "44",
-        "image": ""
+        "image": "img/Drivers/lewis hamilton.png"
     },
      {
         "name": "George Russell",
         "country": "Great Britain",
         "Team": "Mercedes",
         "number": "63",
-        "image": ""
+        "image": "img/Drivers/george russel.png"
     },
      {
         "name": "Kimi Antonelli",
         "country": "Italy",
         "Team": "Mercedes",
         "number": "12",
-        "image": ""
+        "image": "img/Drivers/kimi antoneli.png"
     },
      {
         "name": "Max Verstappen",
         "country": "Nederlands",
         "Team": "RedBull Racing",
         "number": "1",
-        "image": ""
+        "image": "img/Drivers/max verstappen.png"
     },
      {
         "name": "Yuki Tsunoda",
         "country": "Japan",
         "Team": "RedBull Racing",
         "number": "22",
-        "image": ""
+        "image": "img/Drivers/yuki tsunoda.png"
     },
      {
         "name": "Alexander Albon",
         "country": "Thailand",
         "Team": "Williams",
         "number": "23",
-        "image": ""
+        "image": "img/Drivers/alexander albon.png"
     },
      {
         "name": "Carlos Sainz",
         "country": "Spain",
         "Team": "Williams",
         "number": "55",
-        "image": ""
+        "image": "img/Drivers/carlos sainz.png"
     },
      {
         "name": "Lance Stroll",
         "country": "Canada",
         "Team": "Aston Martin",
         "number": "18",
-        "image": ""
+        "image": "img/Drivers/lance stroll.png"
     },
      {
         "name": "Fernando Alonso",
         "country": "Spain",
         "Team": "Aston Martin",
         "number": "14",
-        "image": ""
+        "image": "img/Drivers/fernando alonso.png"
     },
      {
         "name": "Liam Lawson",
         "country": "New Zealand",
         "Team": "Racing Bulls",
         "number": "30",
-        "image": ""
+        "image": "img/Drivers/liam lawson.png"
     },
      {
         "name": "Isack Hadjar",
         "country": "Frnace",
         "Team": "Racing Bulls",
         "number": "6",
-        "image": ""
+        "image": "img/Drivers/isack hadjar.png"
     },
      {
         "name": "Nico Hülkenberg",
         "country": "Germany",
         "Team": "Kick Sauber",
         "number": "27",
-        "image": ""
+        "image": "img/Drivers/nico hulkenberg.png"
     },
      {
         "name": "Gabriel Bortoleto",
         "country": "Brasil",
         "Team": "Kick Sauber",
         "number": "5",
-        "image": ""
+        "image": "img/Drivers/gabriel bortoleto.png"
     },
      {
         "name": "Esteban Ocon",
         "country": "France",
         "Team": "Haas",
         "number": "31",
-        "image": ""
+        "image": "img/Drivers/esteban ocon.png"
     },
      {
         "name": "Oliver Bearman",
         "country": "Great Britain",
         "Team": "Haas",
         "number": "87",
-        "image": ""
+        "image": "img/Drivers/oliver bearman.png"
     },
      {
         "name": "Pierre Gasly",
         "country": "France",
         "Team": "Alpine",
         "number": "10",
-        "image": ""
+        "image": "img/Drivers/pierre gasly.png"
     },
      {
         "name": "Franco Colapinto",
         "country": "Argentina",
         "Team": "Alpine",
         "number": "43",
-        "image": ""
+        "image": "img/Drivers/franco colapinto.png"
     }
      
 ]

@@ -4,28 +4,28 @@
         "country": "Australia",
         "length": "5.303 km",
         "rounds": "58",
-        "image": ""
+        "image": "img/Circuits/Australia_Circuit.avif"
     },
     {
         "name": "Shanghai",
         "country": "China",
         "length": "5.451km",
         "rounds": "56",
-        "image": ""
+        "image": "img/Circuits/China_Circuit.avif"
     },
     {
         "name": "Suzuka",
         "country": "Japan",
         "length": "5.807km",
         "rounds": "53",
-        "image": ""
+        "image": "img/Circuits/Japan_Circuit.avif"
     },
     {
         "name": "Sakhir",
         "country": "Bahrain",
         "length": "5.412km",
         "rounds": "57",
-        "image": ""
+        "image": "img/Circuits/Bahrain_Circuit.avif"
     },
     {
         "name": "Jeddah",

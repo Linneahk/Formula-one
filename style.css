@@ -46,20 +46,36 @@
 
 
   .search-form {
-    text-align: right; /* helt til høyre */
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
   }
 
   .search-form input {
+    text-align: center;
     padding: 6px 10px;
     font-size: 16px;
     border: 1px solid #333;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 200px;
+    margin-right: 20px;
+
+  }
+
+  .search-form img {
+    order: 2;
+    height: 25px;
   }
 
 
   #container {
-    outline: 2px solid black;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    height: 80px;
   }
 
 
@@ -96,48 +112,50 @@
   }
 
   .dropdown-content a:hover {
-    background:   #cd9b9b;
+    background: #cd9b9b;
   }
 
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
-  #f1{
-  width: 950px;
-  float: right;
+  #f1 {
+    width: 950px;
+    float: right;
 
   }
 
   .hero {
     background-image: url("img/Screenshot-2025-09-04-095000.png");
-    background-size: cover;   /* dekker alltid heile */
+    background-size: cover;
+    /* dekker alltid heile */
     background-position: center;
     background-repeat: no-repeat;
   }
 
 
 
-  #background {
+  .background {
     width: 100%;
   }
 
   .hero-content {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* midtstiller innhaldet */
+    transform: translate(-50%, -50%);
+    /* midtstiller innhaldet */
     text-align: center;
   }
 
-  .hero-content h1{
+  .hero-content h1 {
     display: flex;
     margin-top: 15px;
     margin-left: 300px;
     font-size: 50px;
     color: #9a3e54;
     letter-spacing: 30px;
-    
+
   }
 
   .big-logo {
@@ -146,9 +164,20 @@
     margin-left: 260px;
   }
 
-  .about{
-    text-align: center;
+  .about {
+    margin: auto;
+    width: 40%;
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
   }
 
+  .about p {
+    text-align: center;
 
+  }
 
+  .about h1 {
+    margin-top: 100px;
+  }

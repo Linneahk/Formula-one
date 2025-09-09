@@ -23,11 +23,11 @@
     </ul>
   </nav>
 
-  
 
-  <!-- BURGER-MENY -->
+
   <div class="wrapper">
     <div id="container">
+
       <div class="dropdown">
         <img src="img/Screenshot 2025-09-02 093657.png" alt="Menu icon">
         <div class="dropdown-content">
@@ -35,39 +35,50 @@
           <a href="DC.html">Drivers & Circuits</a>
         </div>
       </div>
+
+      <form class="search-form">
+        <input type="text" id="search" placeholder="Search...">
+        <button type="submit" style="display:none;"></button>
+        <img id="søk" src="img/Screenshot 2025-09-09 084229.png" alt="search icon">
+
+      </form>
+
     </div>
   </div>
 
- 
 
- 
- 
 
-  <!-- INNHOLD -->
-<!-- INNHOLD -->
-<div class="container">
 
-  <!-- CIRCUIT BOX -->
-  <div class="box" id="circuits-box">
-    <button id="prev-circuit" class="prev">&lt;</button>
-    <div id="circuit-content"></div>
-    <button id="next-circuit" class="next">&gt;</button>
+
+  <div class="container-dc">
+    <img class="background" src="img/Screenshot 2025-09-09 090735.png">
+
+    <div class="box" id="circuits-box">
+      <button id="prev-circuit" class="prev">&lt;</button>
+      <div id="circuit-content"></div>
+      <button id="next-circuit" class="next">&gt;</button>
+    </div>
+
+    <!-- DRIVER BOX -->
+    <div class="box" id="drivers-box">
+
+      <button id="prev-driver" class="prev">&lt;</button>
+      <div id="driver-content"></div>
+      <button id="next-driver" class="next">&gt;</button>
+    </div>
+
   </div>
 
-  <!-- DRIVER BOX -->
-  <div class="box" id="drivers-box">
-
-    <button id="prev-driver" class="prev">&lt;</button>
-    <div id="driver-content"></div>
-    <button id="next-driver" class="next">&gt;</button>
-  </div>
-
-</div> 
 
 
-<!-- SCRIPT -->
-<script src="script.js"></script>
+
+
+
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
 
 
 </body>
+
 </html>
