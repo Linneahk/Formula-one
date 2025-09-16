@@ -6,28 +6,28 @@
         "number": "81",
         "image": "img/Drivers/oscar piastri.png"
     },
-     {
+    {
         "name": "Lando Norris",
         "country": "Great Britain",
         "Team": "McLaren",
         "number": "4",
         "image": "img/Drivers/lando norris.png"
     },
-     {
+    {
         "name": "Charles Leclerc",
         "country": "Monaco",
         "Team": "Ferrari",
         "number": "16",
         "image": "img/Drivers/charles leclerc.png"
     },
-     {
+    {
         "name": "Lewis Hamilton",
         "country": "Great Britain",
         "Team": "Ferrari",
         "number": "44",
         "image": "img/Drivers/lewis hamilton.png"
     },
-     {
+    {
         "name": "George Russell",
         "country": "Great Britain",
         "Team": "Mercedes",

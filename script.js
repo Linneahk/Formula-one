@@ -1,6 +1,6 @@
-// --- søkeskjema på forsiden ---
+//  søkeskjema på forsiden 
 document.querySelector(".search-form")?.addEventListener("submit", e => {
-  e.preventDefault(); // Hindrer at skjemaet refresher siden (standard oppførsel)
+  e.preventDefault(); 
   const q = document.getElementById("search").value.trim(); // Henter teksten fra input-feltet
   if (q) {
     // Sender brukeren til DC.html og legger søket som parameter i URL-en
@@ -9,7 +9,6 @@ document.querySelector(".search-form")?.addEventListener("submit", e => {
   }
 });
 
-// --- variabler for data ---
 let circuits = [], drivers = []; // Tomme arrays som skal fylles med JSON-data
 let ci = 0, di = 0;              // Indexer for hvilken bane (circuit) og fører (driver) vi viser
 
@@ -17,7 +16,7 @@ let ci = 0, di = 0;              // Indexer for hvilken bane (circuit) og fører
 const cc = document.getElementById('circuit-content');
 const dc = document.getElementById('driver-content');
 
-// --- funksjon for å vise en bane (circuit) ---
+ 
 function showCircuit(i) {
   const c = circuits[i]; // Henter banen med index i
   if (!c) return;        // Stopper hvis banen ikke finnes
@@ -28,11 +27,11 @@ function showCircuit(i) {
       <p>${c.length ? "Length: " + c.length : ""}</p>
       <p>${c.rounds ? "Rounds: " + c.rounds : ""}</p>
     </div>`;
-  // Setter bakgrunnsbilde for banen hvis det finnes i data
+  
   cc.parentElement.style.backgroundImage = c.image ? `url('${c.image}')` : "none";
 }
 
-// --- funksjon for å vise en sjåfør (driver) ---
+
 function showDriver(i) {
   const d = drivers[i]; // Henter sjåfør med index i
   if (!d) return;
@@ -43,11 +42,11 @@ function showDriver(i) {
       <p>${d.Team ? "Team: " + d.Team : ""}</p>
       <p>${d.number ? "Number: " + d.number : ""}</p>
     </div>`;
-  // Setter bakgrunnsbilde for sjåføren hvis det finnes i data
+  
   dc.parentElement.style.backgroundImage = d.image ? `url('${d.image}')` : "none";
 }
 
-// --- knappene for å navigere mellom baner og sjåfører ---
+
 document.getElementById('prev-circuit').onclick = () => { 
   // Hvis vi ikke er på første, gå tilbake. Hvis vi er på første, hopp til siste.
   ci = (ci > 0) ? ci - 1 : circuits.length - 1; 
@@ -67,9 +66,9 @@ document.getElementById('next-driver').onclick  = () => {
   showDriver(di);
 };
 
-// --- Sjekk om vi er på DC.html, og vis søkeresultat ---
+//  Sjekk om me er på DC.html, og vis søkeresultat 
 if (location.pathname.endsWith("DC.html")) {
-  // Hent søket fra URL-en (?search=...)
+  // Hent søket fra URL-en (?search=)
   const q = new URLSearchParams(location.search).get("search")?.toLowerCase();
   if (q) {
     // Last begge JSON-filene (drivers og circuits)
@@ -91,7 +90,7 @@ if (location.pathname.endsWith("DC.html")) {
   }
 }
 
-// --- Last data alltid (kjører på alle sider) ---
+
 Promise.all([
   fetch('data/circuit.json').then(r => r.json()), // Hent circuit.json
   fetch('data/driver.json').then(r => r.json())   // Hent driver.json
