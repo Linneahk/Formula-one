@@ -90,7 +90,7 @@ if (location.pathname.endsWith("DC.html")) {
   }
 }
 
-
+n  
 Promise.all([
   fetch('data/circuit.json').then(r => r.json()), // Hent circuit.json
   fetch('data/driver.json').then(r => r.json())   // Hent driver.json
